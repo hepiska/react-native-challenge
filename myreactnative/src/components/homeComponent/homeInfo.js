@@ -25,7 +25,7 @@ const styles = {
   }
 };
 
-const HomeInfo = props => {
+export const HomeInfo = props => {
   const { location, current } = props.weathers;
   if (!location) {
    return (<Text>Please Wait..</Text>)

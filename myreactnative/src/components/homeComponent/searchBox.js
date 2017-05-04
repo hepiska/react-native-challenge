@@ -13,7 +13,7 @@ const styles = {
   },
 };
 
-class SearchBox extends React.Component {
+export class SearchBox extends React.Component {
   constructor(props) {
     super(props);
     this.state = { text: '' };
@@ -36,10 +36,9 @@ class SearchBox extends React.Component {
           small
           raised
           buttonStyle={{ marginLeft: 0, marginRight: 0 }}
-          icon={{name: 'search'}}
-          title='Search'
+          icon={{ name: 'search' }}
+          title="Search"
           onPress={() => this.search(this.state.text)} />
-
       </View>
     );
   }

@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import {fetchWeather} from '../actions'
 import { SearchBox,HomeInfo } from './homeComponent'
 
-class Home extends React.Component {
+export class Home extends React.Component {
   static navigationOptions = {
   title: 'Home',
   };

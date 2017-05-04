@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searchBox component rendered 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+        Object {
+            "height": "16%",
+            "width": "100%",
+          }
+    }
+>
+    <Search
+        icon={Object {}}
+        inputStyle={undefined}
+        lightTheme={true}
+        loadingIcon={Object {}}
+        noIcon={false}
+        onChangeText={[Function]}
+        placeholder="Type Here..."
+        placeholderTextColor="#86939e"
+        round={false}
+        showLoadingIcon={false}
+        value=""
+    />
+    <Button
+        buttonStyle={
+            Object {
+                "marginLeft": 0,
+                "marginRight": 0,
+              }
+        }
+        icon={
+            Object {
+                "name": "search",
+              }
+        }
+        onPress={[Function]}
+        raised={true}
+        small={true}
+        title="Search"
+    />
+</View>,
+  "nodes": Array [
+    <View
+      style={
+            Object {
+                  "height": "16%",
+                  "width": "100%",
+                }
+      }
+>
+      <Search
+            icon={Object {}}
+            inputStyle={undefined}
+            lightTheme={true}
+            loadingIcon={Object {}}
+            noIcon={false}
+            onChangeText={[Function]}
+            placeholder="Type Here..."
+            placeholderTextColor="#86939e"
+            round={false}
+            showLoadingIcon={false}
+            value=""
+      />
+      <Button
+            buttonStyle={
+                  Object {
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      }
+            }
+            icon={
+                  Object {
+                        "name": "search",
+                      }
+            }
+            onPress={[Function]}
+            raised={true}
+            small={true}
+            title="Search"
+      />
+</View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <SearchBox />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": SearchBox {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "text": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <View
+          style={
+                    Object {
+                              "height": "16%",
+                              "width": "100%",
+                            }
+          }
+>
+          <Search
+                    icon={Object {}}
+                    inputStyle={undefined}
+                    lightTheme={true}
+                    loadingIcon={Object {}}
+                    noIcon={false}
+                    onChangeText={[Function]}
+                    placeholder="Type Here..."
+                    placeholderTextColor="#86939e"
+                    round={false}
+                    showLoadingIcon={false}
+                    value=""
+          />
+          <Button
+                    buttonStyle={
+                              Object {
+                                        "marginLeft": 0,
+                                        "marginRight": 0,
+                                      }
+                    }
+                    icon={
+                              Object {
+                                        "name": "search",
+                                      }
+                    }
+                    onPress={[Function]}
+                    raised={true}
+                    small={true}
+                    title="Search"
+          />
+</View>,
+        "_debugID": 2,
+        "_renderedOutput": <View
+          style={
+                    Object {
+                              "height": "16%",
+                              "width": "100%",
+                            }
+          }
+>
+          <Search
+                    icon={Object {}}
+                    inputStyle={undefined}
+                    lightTheme={true}
+                    loadingIcon={Object {}}
+                    noIcon={false}
+                    onChangeText={[Function]}
+                    placeholder="Type Here..."
+                    placeholderTextColor="#86939e"
+                    round={false}
+                    showLoadingIcon={false}
+                    value=""
+          />
+          <Button
+                    buttonStyle={
+                              Object {
+                                        "marginLeft": 0,
+                                        "marginRight": 0,
+                                      }
+                    }
+                    icon={
+                              Object {
+                                        "name": "search",
+                                      }
+                    }
+                    onPress={[Function]}
+                    raised={true}
+                    small={true}
+                    title="Search"
+          />
+</View>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <SearchBox />,
+}
+`;
