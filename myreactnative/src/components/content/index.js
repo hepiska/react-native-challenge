@@ -24,7 +24,6 @@ class Content extends React.Component {
 }
   render() {
     const { forecast } = this.props.weathers
-    const buttons = ['Today', 'Tomorow' ]
     const {selectedIndex} = this.state
     return (
      <View style={styles.container}>

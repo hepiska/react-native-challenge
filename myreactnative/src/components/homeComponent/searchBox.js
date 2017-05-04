@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 import { SearchBar, Button } from 'react-native-elements';
 import { connect } from 'react-redux';
+import { fetchWeather } from '../../actions';
 
 const styles = {
   container: {
@@ -17,8 +18,9 @@ class SearchBox extends React.Component {
     super(props);
     this.state = { text: '' };
   }
-  search() {
-    console.log(('presssed'));
+  search(text) {
+    this.props.fetchWeathers(text);
+    this.setState({ text: '' });
   }
   render() {
     return (
@@ -36,11 +38,13 @@ class SearchBox extends React.Component {
           buttonStyle={{ marginLeft: 0, marginRight: 0 }}
           icon={{name: 'search'}}
           title='Search'
-          onPress={() => this.search()} />
+          onPress={() => this.search(this.state.text)} />
 
       </View>
     );
   }
 }
-
-export default SearchBox
+const mapDispatchToProps = dispatch => ({
+  fetchWeathers: city => dispatch(fetchWeather(city)),
+});
+export default connect(null, mapDispatchToProps)(SearchBox);

@@ -13,7 +13,7 @@ class Home extends React.Component {
   title: 'Home',
   };
   componentDidMount() {
-    this.props.fetchWeathers();
+    this.props.fetchWeathers('Jakarta');
   }
   render() {
     const { navigate } = this.props.navigation;
@@ -34,6 +34,6 @@ class Home extends React.Component {
   }
 }
 
-const mapStateToprops = state => ({ weathers: state.weathers });
-const mapDispatchToProps = dispatch => ({ fetchWeathers: () => dispatch(fetchWeather()) });
+const mapStateToprops = state => ({ weathers: state.weathers});
+const mapDispatchToProps = dispatch => ({ fetchWeathers: (city) => dispatch(fetchWeather(city)) });
 export default connect(mapStateToprops, mapDispatchToProps)(Home);

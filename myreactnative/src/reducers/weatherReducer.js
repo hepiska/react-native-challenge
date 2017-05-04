@@ -1,4 +1,4 @@
-import { FETCH_WEATHER } from '../actions/constans';
+import { FETCH_WEATHER, SEARCH_CITY } from '../actions/constans';
 
 const initialState = [];
 
@@ -13,4 +13,4 @@ const WeatherReducer = (state = initialState, action) => {
   }
 };
 
-export default WeatherReducer;
+export default WeatherReducer
